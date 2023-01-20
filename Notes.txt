@@ -1,0 +1,19 @@
+Unit tests are to be conducted using PHPunit, in my terminal the command
+
+	`phpunit DestroyerTest.php`
+
+works. My past experience of unit testing is a little weak, so these tests
+are not really comprehensive. I decided it would be more honest to submit what
+I've produced than spend a day fine-tuning.
+
+The file `script.php` contains a small script that performs consecutive attacks
+between a destroyer and a carrier until one of them is sunk. I haven't checked 
+to see if the fight is a balanced one, so there's likely a clear winner every 
+time the script is run. In my terminal the command 
+
+	`php script.php`
+	
+works.  
+
+I'm not sure how to go about implementing a RESTful APi, and so I've skipped this 
+step. 
